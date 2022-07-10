@@ -20,4 +20,5 @@ fi
 # checkout dotfiles from repo
 config checkout
 config config status.showUntrackedFiles no
+cd $HOME/.dotfiles/
 config config user.name "knprodanov" && git config user.email "31728516+knprodanov@users.noreply.github.com"
